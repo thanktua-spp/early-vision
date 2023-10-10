@@ -9,8 +9,8 @@ jobs:
       - name: Hello
         run: |
           echo "Hello, world!"
-          
+
       - name: run python script
         run: |
-          pip install -r requirements.txt
+          pip install -r /early-vision/requirements.txt
           python ci.py
