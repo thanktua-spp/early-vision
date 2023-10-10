@@ -13,6 +13,5 @@ jobs:
 
       - name: run python script
         run: |
-          cd /early-vision/
           pip install -r requirements.txt
           python ci.py
