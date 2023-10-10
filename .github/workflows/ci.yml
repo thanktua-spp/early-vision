@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  first-job:
+  ci-workflow:
     runs-on: ubuntu-latest
     steps:
       - name: Hello
@@ -12,5 +12,6 @@ jobs:
 
       - name: run python script
         run: |
-          pip install -r /early-vision/requirements.txt
+          cd /early-vision/
+          pip install -r requirements.txt
           python ci.py
