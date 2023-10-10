@@ -1,3 +1,3 @@
 # early-vision
 
-Early Vision Project House-Keeping
+Early Vision Project House-Keeping.
